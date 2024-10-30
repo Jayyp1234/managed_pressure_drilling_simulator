@@ -1,0 +1,83 @@
+
+  .d-flex {
+    margin-bottom: 10px;
+  }
+  
+  .text-muted {
+    font-size: 0.8rem;
+    color: #ffffff;
+  }
+  
+  .fw-bold {
+    font-weight: 600;
+  }
+  .card{
+    background: transparent;
+    border: none;
+  }
+  
+  .gauge {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 10px solid #000;
+  }
+  
+  .gauge {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 10px solid #000;
+  }
+  
+  .hook-load {
+    border: 10px solid yellow;
+  }
+  
+  .gauge-value {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #000;
+    font-size: 1.5rem;
+  }
+  
+
+  .status-indicators {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .status-item {
+    display: flex;
+    align-items: center;
+  }
+  
+  .status-light {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+  }
+  
+  .bit-depth-item {
+    text-align: center;
+    margin: 0 10px;
+  }
+  
+  .bit-depth-value {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  
+  .mp-indicator {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin: 5px;
+    cursor: pointer;
+  }
+  
