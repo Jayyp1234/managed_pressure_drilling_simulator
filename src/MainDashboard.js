@@ -21,9 +21,9 @@ const MainDashboard = () => {
       setSpm(prev => Math.max(0, prev + amount));
     };
   
-    // const handleStrokesChange = (amount) => {
-    //   setStrokes(prev => Math.max(0, prev + amount));
-    // };
+    const handleStrokesChange = (amount) => {
+      setStrokes(prev => Math.max(0, prev + amount));
+    };
 
     useEffect(() => {
         new RadialGauge({
@@ -108,6 +108,7 @@ const MainDashboard = () => {
             animationDuration: 1500,
             animationRule: 'linear'
           }).draw();
+          handleStrokesChange();
       }, [rpm]);
   return (
     <div className="container-fluid text-light p-3" style={{ backgroundColor: '#d4b790', borderRadius: '10px', height:600}}>
