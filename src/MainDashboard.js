@@ -1,5 +1,5 @@
 import React , {useEffect, useState} from 'react';
-import { RadialGauge, LinearGauge } from 'canvas-gauges';
+import { RadialGauge } from 'canvas-gauges';
 import './MainDashboard.css';
 
 const MainDashboard = () => {

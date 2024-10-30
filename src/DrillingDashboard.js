@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaTachometerAlt, FaBolt, FaWater, FaPercent, FaExclamationTriangle, FaCogs, FaArrowUp, FaArrowDown, FaGauge } from 'react-icons/fa';
+import { FaTachometerAlt, FaBolt, FaWater, FaPercent, FaExclamationTriangle, FaCogs, FaArrowUp, FaArrowDown } from 'react-icons/fa';
 import './DrillingDashboard.css';
 
 const DrillingDashboard = () => {
